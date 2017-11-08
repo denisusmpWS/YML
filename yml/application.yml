@@ -1,6 +1,6 @@
 spring:
   application:
-    name: proy-movimientos-service #nombre del microservicio para eureka
+    name: proy-movimientos-service
   datasource:
     url: jdbc:mysql://localhost:3302/eurekabank
     driver-class-name: com.mysql.jdbc.Driver
@@ -20,5 +20,3 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1111/eureka
-	 
-properties_name: denis
