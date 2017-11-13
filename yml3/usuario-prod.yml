@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: proy-usuario-service
+  datasource:
+    url: jdbc:mysql://localhost:3302/tienda
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root123
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  freemarker:
+    enabled: false
+  thymeleaf:
+    enabled: false
+    cache: false
+  mvc:
+    view:
+      prefix: /WEB-INF/view
+      suffix: .jsp
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka
