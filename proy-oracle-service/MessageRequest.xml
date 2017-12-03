@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messageRequest>
+    <CalypsoUploadDocument uploadDate="08/22/2017" version="1">
+        <calypsoTrade tradeType="Cash">
+            <action>NEW</action>
+            <comment>CDNN TEST</comment>
+            <counterPartyRole>CounterParty</counterPartyRole>
+            <externalReference>CDNN_jls002</externalReference>
+            <holidayCode>
+                <holiday>LIM PUB</holiday>
+            </holidayCode>
+            <internalReference>CDNN_jls002</internalReference>
+            <maturityDate>2018-12-18</maturityDate>
+            <product>
+                <cash>
+                    <currency>PEN</currency>
+                    <dayCountConvention>ACT/360</dayCountConvention>
+                    <discounted>false</discounted>
+                    <holidayCode>
+                        <holiday>LIM PUB</holiday>
+                    </holidayCode>
+                    <loan>true</loan>
+                    <openTerm>false</openTerm>
+                    <paymentFrequency>ZC</paymentFrequency>
+                    <principalExchange>true</principalExchange>
+                    <rate>3.75</rate>
+                    <rateType>FIXED</rateType>
+                    <salesMargin>0.0</salesMargin>
+                </cash>
+            </product>
+            <productType>Cash</productType>
+            <salesPerson>NONE</salesPerson>
+            <startDate>2017-08-17</startDate>
+            <tradeBook>CDNN_Book</tradeBook>
+            <tradeCounterParty>ALICORP S.A.A.</tradeCounterParty>
+            <tradeCurrency>PEN</tradeCurrency>
+            <tradeDateTime>2017-08-17</tradeDateTime>
+            <tradeKeyWords>
+                <keyword>
+                    <keywordName>SubTypeMM</keywordName>
+                    <keywordValue>CDNN</keywordValue>
+                </keyword>
+                <keyword>
+                    <keywordName>TradeSource</keywordName>
+                    <keywordValue>SerivaMINV</keywordValue>
+                </keyword>
+                <keyword>
+                    <keywordName>TraderUser</keywordName>
+                    <keywordValue>s69905</keywordValue>
+                </keyword>
+            </tradeKeyWords>
+            <tradeNotional>35650.0</tradeNotional>
+            <tradeSettleDate>2017-08-17</tradeSettleDate>
+            <traderName>NONE</traderName>
+        </calypsoTrade>
+    </CalypsoUploadDocument>
+    <CalypsoUploadDocument uploadDate="08/22/2017" version="1">
+        <calypsoTrade tradeType="Cash">
+            <action>NEW</action>
+            <comment>CDNN TEST</comment>
+            <counterPartyRole>CounterParty</counterPartyRole>
+            <externalReference>CDNN_jls002</externalReference>
+            <holidayCode>
+                <holiday>LIM PUB</holiday>
+            </holidayCode>
+            <internalReference>CDNN_jls002</internalReference>
+            <maturityDate>2018-12-18</maturityDate>
+            <product>
+                <cash>
+                    <currency>PEN</currency>
+                    <dayCountConvention>ACT/360</dayCountConvention>
+                    <discounted>false</discounted>
+                    <holidayCode>
+                        <holiday>LIM PUB</holiday>
+                    </holidayCode>
+                    <loan>true</loan>
+                    <openTerm>false</openTerm>
+                    <paymentFrequency>ZC</paymentFrequency>
+                    <principalExchange>true</principalExchange>
+                    <rate>3.75</rate>
+                    <rateType>FIXED</rateType>
+                    <salesMargin>0.0</salesMargin>
+                </cash>
+            </product>
+            <productType>Cash</productType>
+            <salesPerson>NONE</salesPerson>
+            <startDate>2017-08-17</startDate>
+            <tradeBook>CDNN_Book</tradeBook>
+            <tradeCounterParty>ALICORP S.A.A.</tradeCounterParty>
+            <tradeCurrency>PEN</tradeCurrency>
+            <tradeDateTime>2017-08-17</tradeDateTime>
+            <tradeKeyWords>
+                <keyword>
+                    <keywordName>SubTypeMM</keywordName>
+                    <keywordValue>CDNN</keywordValue>
+                </keyword>
+                <keyword>
+                    <keywordName>TradeSource</keywordName>
+                    <keywordValue>SerivaMINV</keywordValue>
+                </keyword>
+                <keyword>
+                    <keywordName>TraderUser</keywordName>
+                    <keywordValue>s69905</keywordValue>
+                </keyword>
+            </tradeKeyWords>
+            <tradeNotional>35650.0</tradeNotional>
+            <tradeSettleDate>2017-08-17</tradeSettleDate>
+            <traderName>NONE</traderName>
+        </calypsoTrade>
+    </CalypsoUploadDocument>
+</messageRequest>
