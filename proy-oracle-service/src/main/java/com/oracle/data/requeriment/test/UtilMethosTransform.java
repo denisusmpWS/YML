@@ -3,6 +3,7 @@ package com.oracle.data.requeriment.test;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.StringReader;
+import java.io.StringWriter;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
@@ -31,7 +32,7 @@ public class UtilMethosTransform {
 		return e;
 	}
 
-
+	/*METODO CON FILE.XML BASE, NO SIRVE*/
 	public String ObjectToXML(String nameXML, CalypsoUploadDocument e) throws JAXBException {
 		File fileXML = new File(nameXML);
 		ByteArrayOutputStream baos=new ByteArrayOutputStream();
@@ -42,6 +43,16 @@ public class UtilMethosTransform {
 		marshaller.marshal(e, baos);
 		String formatXML=new String(baos.toByteArray()).toString();
 		return formatXML;
+	}
+
+	public String ObjectToXML2(CalypsoUploadDocument e) throws JAXBException {
+		JAXBContext context = JAXBContext.newInstance(CalypsoUploadDocument.class);
+		Marshaller m = context.createMarshaller();
+		m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+		StringWriter sw = new StringWriter();
+		m.marshal(e, sw);
+		String result = sw.toString();
+		return result;
 	}
 	
 	public CalypsoUploadDocument XmlToObject(String nameXML) throws JAXBException{

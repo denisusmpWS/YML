@@ -57,15 +57,22 @@ public class Automatization {
 		System.out.println("OBJECT:"+calypsoUploadDocument2);
 		
 		//OBJECT TO XML
+		/*
 		String xml=methosTransform.ObjectToXML("CalypsoUploadDocument2.xml", calypsoUploadDocument2);
 		System.out.println("XML:"+xml);
-		
-		//XML A OBJECT - FORMA I
+		*/
+		String xml=methosTransform.ObjectToXML2(calypsoUploadDocument2);
+		System.out.println("XML:"+xml);
+
+
+
+		//XML A OBJECT - FORMA I-> NO VA
+		/*
 		CalypsoUploadDocument calypsoUploadDocument3=methosTransform.XmlToObject("CalypsoUploadDocument2.xml");
 		System.out.println("OBJECT:"+calypsoUploadDocument3);
 		System.out.println("ID:"+calypsoUploadDocument3.getVersion());
-		
-		//XML A OBJECT - FORMA II
+		*/
+		//XML A OBJECT - FORMA II -> SI VA
 		CalypsoUploadDocument calypsoUploadDocument4=methosTransform.XmlToObject2(xml);
 		System.out.println("OBJECT 2:"+calypsoUploadDocument4);
 		System.out.println("VERSION:"+calypsoUploadDocument4.getVersion());
